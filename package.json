@@ -1,5 +1,6 @@
 {
   "name": "solid-vue-components",
+  "version": "0.0.1",
   "scripts": {
     "dev": "node build-utils/update-index-file.js && vue-cli-service serve",
     "build": "node build-utils/build-lib.js",

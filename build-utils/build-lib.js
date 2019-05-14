@@ -22,14 +22,12 @@ fs.emptyDirSync(getPath('../packages'))
 
 // Build the main lib, with all components packaged into a plugin
 console.info('🏗 Building main library')
-console.log('hello!')
 
 execSync(
   `${vueCliServicePath} build src/index.js --target lib --name index --dest dist/`
 )
 // Rename the CommonJS build so that it can be imported with
 // ${libConfig}/dist
-console.log('hello!')
 renameIndex()
 
 // For each component in the src directory...
@@ -208,6 +206,7 @@ function generatePackageJson(_package) {
   return JSON.stringify(
     {
       name: _package.name,
+      version: '0.0.1',
       description: _package.description,
       author: libConfig.author,
       license: 'MIT',
