@@ -4,11 +4,13 @@
 //
 // YOU SHOULD NEVER UPDATE THIS FILE DIRECTLY
 import LoginButton from './LoginButton.vue'
+import LogoutButton from './LogoutButton.vue'
 // Export components individually
-export { LoginButton }
+export { LoginButton, LogoutButton }
 // What should happen if the user installs the library as a plugin
 function install(Vue) {
   Vue.component('LoginButton', LoginButton)
+  Vue.component('LogoutButton', LogoutButton)
 }
 // Export the library as a plugin
 export default { install: install }

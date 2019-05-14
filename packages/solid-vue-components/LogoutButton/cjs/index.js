@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["index"] = factory();
-	else
-		root["index"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -96,13 +87,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "597f":
-/***/ (function(module, exports) {
-
-// empty (null-loader)
-
-/***/ }),
-
 /***/ "5c58":
 /***/ (function(module, exports) {
 
@@ -111,13 +95,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ }),
 
 /***/ "8e27":
-/***/ (function(module, exports) {
-
-// empty (null-loader)
-
-/***/ }),
-
-/***/ "e55e":
 /***/ (function(module, exports) {
 
 // empty (null-loader)
@@ -190,12 +167,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4674830d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./build-utils/global-vue-loader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/LoginButton.vue?vue&type=template&id=2d81f950&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"btn"},[_vm._v("Login")])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4674830d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./build-utils/global-vue-loader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/LogoutButton.vue?vue&type=template&id=c91baadc&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"btn"},[_vm._v("Logout")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/LoginButton.vue?vue&type=template&id=2d81f950&
+// CONCATENATED MODULE: ./src/LogoutButton.vue?vue&type=template&id=c91baadc&
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -292,15 +269,15 @@ function normalizeComponent (
   }
 }
 
-// EXTERNAL MODULE: ./src/LoginButton.vue?vue&type=custom&index=0&blockType=meta
-var LoginButtonvue_type_custom_index_0_blockType_meta = __webpack_require__("597f");
-var LoginButtonvue_type_custom_index_0_blockType_meta_default = /*#__PURE__*/__webpack_require__.n(LoginButtonvue_type_custom_index_0_blockType_meta);
+// EXTERNAL MODULE: ./src/LogoutButton.vue?vue&type=custom&index=0&blockType=meta
+var LogoutButtonvue_type_custom_index_0_blockType_meta = __webpack_require__("8e27");
+var LogoutButtonvue_type_custom_index_0_blockType_meta_default = /*#__PURE__*/__webpack_require__.n(LogoutButtonvue_type_custom_index_0_blockType_meta);
 
-// EXTERNAL MODULE: ./src/LoginButton.vue?vue&type=custom&index=1&blockType=example
-var LoginButtonvue_type_custom_index_1_blockType_example = __webpack_require__("e55e");
-var LoginButtonvue_type_custom_index_1_blockType_example_default = /*#__PURE__*/__webpack_require__.n(LoginButtonvue_type_custom_index_1_blockType_example);
+// EXTERNAL MODULE: ./src/LogoutButton.vue?vue&type=custom&index=1&blockType=example
+var LogoutButtonvue_type_custom_index_1_blockType_example = __webpack_require__("5c58");
+var LogoutButtonvue_type_custom_index_1_blockType_example_default = /*#__PURE__*/__webpack_require__.n(LogoutButtonvue_type_custom_index_1_blockType_example);
 
-// CONCATENATED MODULE: ./src/LoginButton.vue
+// CONCATENATED MODULE: ./src/LogoutButton.vue
 
 var script = {}
 
@@ -320,88 +297,22 @@ var component = normalizeComponent(
 
 /* custom blocks */
 
-if (typeof LoginButtonvue_type_custom_index_0_blockType_meta_default.a === 'function') LoginButtonvue_type_custom_index_0_blockType_meta_default()(component)
+if (typeof LogoutButtonvue_type_custom_index_0_blockType_meta_default.a === 'function') LogoutButtonvue_type_custom_index_0_blockType_meta_default()(component)
 
-if (typeof LoginButtonvue_type_custom_index_1_blockType_example_default.a === 'function') LoginButtonvue_type_custom_index_1_blockType_example_default()(component)
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('LoginButton', component.exports)
-}
-/* harmony default export */ var LoginButton = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4674830d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./build-utils/global-vue-loader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/LogoutButton.vue?vue&type=template&id=c91baadc&
-var LogoutButtonvue_type_template_id_c91baadc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"btn"},[_vm._v("Logout")])}
-var LogoutButtonvue_type_template_id_c91baadc_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/LogoutButton.vue?vue&type=template&id=c91baadc&
-
-// EXTERNAL MODULE: ./src/LogoutButton.vue?vue&type=custom&index=0&blockType=meta
-var LogoutButtonvue_type_custom_index_0_blockType_meta = __webpack_require__("8e27");
-var LogoutButtonvue_type_custom_index_0_blockType_meta_default = /*#__PURE__*/__webpack_require__.n(LogoutButtonvue_type_custom_index_0_blockType_meta);
-
-// EXTERNAL MODULE: ./src/LogoutButton.vue?vue&type=custom&index=1&blockType=example
-var LogoutButtonvue_type_custom_index_1_blockType_example = __webpack_require__("5c58");
-var LogoutButtonvue_type_custom_index_1_blockType_example_default = /*#__PURE__*/__webpack_require__.n(LogoutButtonvue_type_custom_index_1_blockType_example);
-
-// CONCATENATED MODULE: ./src/LogoutButton.vue
-
-var LogoutButton_script = {}
-
-
-/* normalize component */
-
-var LogoutButton_component = normalizeComponent(
-  LogoutButton_script,
-  LogoutButtonvue_type_template_id_c91baadc_render,
-  LogoutButtonvue_type_template_id_c91baadc_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* custom blocks */
-
-if (typeof LogoutButtonvue_type_custom_index_0_blockType_meta_default.a === 'function') LogoutButtonvue_type_custom_index_0_blockType_meta_default()(LogoutButton_component)
-
-if (typeof LogoutButtonvue_type_custom_index_1_blockType_example_default.a === 'function') LogoutButtonvue_type_custom_index_1_blockType_example_default()(LogoutButton_component)
+if (typeof LogoutButtonvue_type_custom_index_1_blockType_example_default.a === 'function') LogoutButtonvue_type_custom_index_1_blockType_example_default()(component)
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('LogoutButton', LogoutButton_component.exports)
+  window.Vue.component('LogoutButton', component.exports)
 }
-/* harmony default export */ var LogoutButton = (LogoutButton_component.exports);
-// CONCATENATED MODULE: ./src/index.js
-// THIS FILE IS AUTOMATICALLY GENERATED IN:
-//
-//   build-utils/update-file-index.js
-//
-// YOU SHOULD NEVER UPDATE THIS FILE DIRECTLY
-
- // Export components individually
-
- // What should happen if the user installs the library as a plugin
-
-function install(Vue) {
-  Vue.component('LoginButton', LoginButton);
-  Vue.component('LogoutButton', LogoutButton);
-} // Export the library as a plugin
-
-
-/* harmony default export */ var src = ({
-  install: install
-});
+/* harmony default export */ var LogoutButton = (component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
-/* concated harmony reexport LoginButton */__webpack_require__.d(__webpack_exports__, "LoginButton", function() { return LoginButton; });
-/* concated harmony reexport LogoutButton */__webpack_require__.d(__webpack_exports__, "LogoutButton", function() { return LogoutButton; });
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (src);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (LogoutButton);
 
 
 
 /***/ })
 
-/******/ });
-});
+/******/ })["default"];
 //# sourceMappingURL=index.js.map

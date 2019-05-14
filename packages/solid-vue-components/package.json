@@ -1,6 +1,6 @@
 {
   "name": "solid-vue-components",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "An example component library built with Vue CLI 3.",
   "author": {
     "name": "huhn",
@@ -22,6 +22,5 @@
   "jsdelivr": "umd/index.min.js",
   "peerDependencies": {
     "vue": ">=2.0.0"
-  },
-  "gitHead": "4ba38945808fcb0baa021655742f36c9587fc581"
+  }
 }

@@ -1,14 +1,14 @@
 {
-  "name": "solid-vue-components.login-button",
+  "name": "solid-vue-components.logout-button",
   "version": "0.0.1",
-  "description": "A component that displays a solid login button.",
+  "description": "A component that displays a solid logout button.",
   "author": {
     "name": "huhn",
     "email": "",
     "github": "huhn511"
   },
   "license": "MIT",
-  "homepage": "https://www.npmjs.com/package/solid-vue-components.login-button",
+  "homepage": "https://www.npmjs.com/package/solid-vue-components.logout-button",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huhn511/solid-vue-components.git"
