@@ -52,5 +52,5 @@ components: { LoginButton }
 
 ```html
 <!-- No props or content are necessary. -->
-<LoginButton />
+<LoginButton v-on:onSuccess="handleLogin" />
 ```

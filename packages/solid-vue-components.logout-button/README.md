@@ -52,5 +52,5 @@ components: { LogoutButton }
 
 ```html
 <!-- No props or content are necessary. -->
-<LogoutButton />
+<LogoutButton v-on:onSuccess="handleLogout" />
 ```
