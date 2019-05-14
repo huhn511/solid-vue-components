@@ -22,5 +22,6 @@
   "jsdelivr": "umd/index.min.js",
   "peerDependencies": {
     "vue": ">=2.0.0"
-  }
+  },
+  "gitHead": "4ba38945808fcb0baa021655742f36c9587fc581"
 }
