@@ -1,6 +1,6 @@
 {
   "name": "solid-vue-components.logged-in",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Pane that only shows its contents when the user is logged in.",
   "author": {
     "name": "huhn",

@@ -1,6 +1,6 @@
 {
   "name": "solid-vue-components.auth-button",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Button that lets the user log in or out with Solid.",
   "author": {
     "name": "huhn",
