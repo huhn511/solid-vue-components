@@ -1,6 +1,6 @@
 {
   "name": "solid-vue-components.logout-button",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "A component that displays a solid logout button.",
   "author": {
     "name": "huhn",

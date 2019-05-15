@@ -1,0 +1,26 @@
+{
+  "name": "solid-vue-components.logged-out",
+  "version": "0.0.1",
+  "description": "Pane that only shows its contents when the user is logged in.",
+  "author": {
+    "name": "huhn",
+    "email": "",
+    "github": "huhn511"
+  },
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/solid-vue-components.logged-out",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huhn511/solid-vue-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huhn511/solid-vue-components/issues"
+  },
+  "module": "index.js",
+  "main": "cjs/index.js",
+  "unpkg": "umd/index.min.js",
+  "jsdelivr": "umd/index.min.js",
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  }
+}

@@ -3,12 +3,18 @@
 //   build-utils/update-file-index.js
 //
 // YOU SHOULD NEVER UPDATE THIS FILE DIRECTLY
+import AuthButton from './AuthButton.vue'
+import LoggedIn from './LoggedIn.vue'
+import LoggedOut from './LoggedOut.vue'
 import LoginButton from './LoginButton.vue'
 import LogoutButton from './LogoutButton.vue'
 // Export components individually
-export { LoginButton, LogoutButton }
+export { AuthButton, LoggedIn, LoggedOut, LoginButton, LogoutButton }
 // What should happen if the user installs the library as a plugin
 function install(Vue) {
+  Vue.component('AuthButton', AuthButton)
+  Vue.component('LoggedIn', LoggedIn)
+  Vue.component('LoggedOut', LoggedOut)
   Vue.component('LoginButton', LoginButton)
   Vue.component('LogoutButton', LogoutButton)
 }
